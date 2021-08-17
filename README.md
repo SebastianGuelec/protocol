@@ -12,7 +12,7 @@ File -> new File -> Module from Exisisting Sources -> Zielordner auswählen -> N
 <h3>User stories:</h3>
  
 
- - Nicht-technische Beschreibung von vom User erwünschte Funktionen
+ - Nicht-technische Beschreibung vom User erwünschte Funktionen
  - Technik ist dem User egal, allerdings Funktionalität und User Experience nicht
 
 Neue Story (Github):
@@ -32,7 +32,7 @@ Dependency:
     <groupId>io.springfox</groupId>
     <artifactId>springfox-boot-starter</artifactId>
     <version>3.0.0</version>
-</dependency>
+    </dependency>
 
 Docket Starter:
 ````java
@@ -64,6 +64,8 @@ Test:
 Installation testen:
 `docker --version`
 `docker-compose --version`
+`docker stop <id>`
+`docker stats` -> liefert ID der laufenden Container
 
 <h3>PostgreSQL</h3>
 Neue Database:
